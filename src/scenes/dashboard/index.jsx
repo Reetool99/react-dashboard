@@ -223,7 +223,7 @@ const Dashboard = () => {
           backgroundColor={colors.primary[400]}
           p="30px"
         >
-          <Typography variant="h5" fontWeight="600">
+          <Typography variant="h5" fontWeight="600" color={colors.grey[100]}>
             Campaign
           </Typography>
           <Box
@@ -240,7 +240,9 @@ const Dashboard = () => {
             >
               $48,352 revenue generated
             </Typography>
-            <Typography>Includes extra misc expenditures and costs</Typography>
+            <Typography color={colors.grey[100]}>
+              Includes extra misc expenditures and costs
+            </Typography>
           </Box>
         </Box>
         <Box
@@ -252,6 +254,7 @@ const Dashboard = () => {
             variant="h5"
             fontWeight="600"
             sx={{ padding: "30px 30px 0 30px" }}
+            color={colors.grey[100]}
           >
             Sales Quantity
           </Typography>
@@ -269,6 +272,7 @@ const Dashboard = () => {
             variant="h5"
             fontWeight="600"
             sx={{ marginBottom: "15px" }}
+            color={colors.grey[100]}
           >
             Geography Based Traffic
           </Typography>
